@@ -1,0 +1,7 @@
+name "deimos-ogg"
+description "Deimos Bindings for libogg."
+license "BSD 3-clause"
+homepage "https://xiph.org/ogg"
+importPaths "."
+targetType "sourceLibrary"
+libs "ogg" platform="posix"
